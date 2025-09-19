@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>my personal portfolio</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://kit.fontawesome.com/5f1b8b96da.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <li><a href="#Achievements">Achievements</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>MARY SUSAN BANDI</p>
+                    <h1>JAVA <span>FULLSTACK </span><br>DEVELOPER</h1>
+                </div>
+            </div>
+        </div>
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="About-col-1">
+                        <img src="https://thumbs.dreamstime.com/b/illustration-beautiful-young-business-woman-suit-tie-290523690.jpg">
+                    </div>
+                    <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Iam a Front-End Developer,iam dedicated to deliver top-notch service to any team .With a passion 
+                           for cybersecurity and information security,I bring a diverse skill set
+                           honed through various courses and hands-on projects.My expertise lies in crafting engaging and
+                           user-friendly interfaces,backed by a solid foundation in security principles.I've successfully 
+                           completed projects,including a unique hand gesture vocalizer,showcasing my innovative approach to
+                           technology. Iam ready to elavate your projects to new heights,excited to contribute my skills and enthusiasm to your team!</p>
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                        <p class="tab-links" onclick="opentab('Resume')">Resume</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UT/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Programming Languages</span><br>C,PYTHON,jAVA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span> Hand Gesture Vocalizer</span><br>For the Impaired-An Electronic Device</li>
+                            <p>Hand Gesture Vocalizer is a social purpose project that helps people to uplift who are speech,blind and hearing
+                                 impaired,by facilitating them to have a better communication with the public.Generally,sign language is used 
+                                 by the deaf,blind but, it becomes difficult for them to communicate with other people who do not understand 
+                                 sign language .SO, this project is designed to address the need of developing an electronic device that
+                                 can translate sign language into speech and display in order to remove the gap between them!</p>
+                           <img src="pic2.jpg">
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Resume">
+                        <ul>
+                            <li><span>Resume </span></li>
+                            <a href="mary_resume.pdf" download class="mnp mnp2">Download resume</a>
+
+                    </div>
+                 </div>
+            </div>
+            </div>
+        </div>
+        <div id="Achievements">
+            <div class="container">
+                <h1 class="sub-title">Achievements&Certifications</h1>
+                <div class="Achievements-list">
+                    <div>
+                        <h2>INFOSYS</h2>
+                        <p>Fundamentals of Information Security</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>GOOGLE</h2>
+                        <p>Google Cloud Career readiness Data Analyst track</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>FORAGE</h2>
+                        <p>Power BI Virtual Case Experience</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>INDIAN-SERVERS</h2>
+                        <p> Workshop on Cyber security</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>IIT-BOMBAY</h2>
+                        <p>Completion of HTML training</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    
+                    <div>
+                        <h2>UNICEF</h2>
+                        <p>CCC-Core Commitments for Children</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>AR-BOT</h2>
+                        <p>Robotics club</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div id="contact"> 
+            <div class="container">
+                <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>marysusan0195@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6300924149</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/susan_0195?t=VPYR1KIPluYqvmxPRXYExQ&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://linkedin.com/in/mary-susan-bandi"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://telegram.org/dl"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <div class="Resume">
+                        <a href="mary_resume.pdf" class="mnp mnp2">Download resume</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="mnp mnp2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © [2025] [Mary Susan Bandi]. All Rights Reserved</p>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDRglVSVsXSBVhOcLdosN5sfDP4yl62pG3qUcJatXsMkPsbNyxKCXpzhgqf3Zk1mcmVg/exec';
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            msg.style.display = "block"; // Ensure the message is visible
+            setTimeout(function () {
+                msg.innerHTML = ""; // Clear the message
+                msg.style.display = "none"; // Hide the message
+            }, 5000);
+            form.reset(); // Reset the form
+        })
+        .catch((error) => {
+            console.error('Error!', error.message);
+            msg.innerHTML = "Failed to send message. Please try again!";
+            msg.style.display = "block"; // Show failure message
+        });
+});
+
+      </script>
+        </body>
+</html>
